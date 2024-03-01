@@ -1,0 +1,47 @@
+.App {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
+  .text-container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem ;
+    .heading{
+      font-size: 3rem;
+      }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    .card-container{
+      min-width:80%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 20px;
+      .input-group{
+        min-height: 45px;
+      }
+      .input-group-text{
+        border-radius: 0 8px 8px 0 !important;
+        .btn{
+          border-radius: 0 8px 8px 0 !important;
+          background: rgb(2,0,36) !important;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,119,208,1) 1%, rgba(0,212,255,1) 100%) !important;
+border: none !important;
+height: 100% !important;
+        }
+      }
+      
+    }
+    .btn-copy{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,13,223,1) 1%, rgba(0,212,255,1) 100%) !important;
+    }
+  }
+}
