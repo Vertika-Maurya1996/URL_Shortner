@@ -53,7 +53,7 @@ const UrlShortner = () => {
   });
   return (
     <div className="container">
-      <Row>
+      <Row style={{width:"100%"}}>
         <Col md={12}>
           <Card className="card-container">
             <CardBody>
